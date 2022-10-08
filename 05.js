@@ -14,6 +14,13 @@ function pluck(array, propiedad) {
   // Pista: es una buena oportunidad para usar map.
 
   // Tu código acá:
+  let nArray = [];
+  for (let i = 0; i < array.length; i++) {
+    
+    nArray.push(array[i][propiedad])//alv funcionó, como si fuese una matriz 
+    
+  }
+  return nArray;
 
 }
 
